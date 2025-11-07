@@ -18,3 +18,4 @@ print(f"Variable address size is {sys.getsizeof(id(myVal))} bytes.")
 # 128 | 64 | 32 | 16 | 8 | 4 | 2 | 1  => 8 bit
 #  0     0    1    0   0   1   1   1 = 47 = 100111
 #  1     1    1    1   1   1   1   1 = 255 = 11111111
+
