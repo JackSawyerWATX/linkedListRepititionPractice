@@ -251,3 +251,64 @@ Understanding these fundamental differences helps you choose the right data stru
 4. **Choose based on your primary use case**: frequent access vs frequent modification
 5. **Consider memory overhead**: linked lists use 2-3x more memory than arrays
 
+---
+
+## Files in This Repository
+
+This repository contains various implementations and examples of linked lists in Python:
+
+### **Core Implementation Files**
+- **`linkedList.py`** - Comprehensive linked list with detailed comments for learning
+- **`simple_linked_list.py`** - Clean, uncommented version for practical use
+- **`myLinkedList.py`** - Practice implementation with array-style output display
+
+### **Specialized Linked List Types**
+- **`doublyLinkedList.py`** - Doubly linked list with forward and backward traversal
+- **`basicLinkedList.py`** - Minimal linked list implementation
+- **`currentLinkedList.py`** - Current working version for experiments
+- **`fccLinkedList.py`** - FreeCodeCamp style implementation
+
+### **Utility Files**
+- **`value.py`** - Demonstrates Python memory usage and variable properties
+- **`README.md`** - This comprehensive guide (you're reading it!)
+
+### **Repository Structure**
+```
+linkedList/
+├── linkedList.py           # Main educational implementation
+├── simple_linked_list.py   # Production-ready version
+├── myLinkedList.py         # Practice version with debugging
+├── doublyLinkedList.py     # Bidirectional linked list
+├── basicLinkedList.py      # Minimal implementation
+├── currentLinkedList.py    # Experimental version
+├── fccLinkedList.py        # Tutorial-style implementation
+├── value.py               # Memory analysis utilities
+└── README.md              # Documentation (this file)
+```
+
+### **Getting Started**
+1. **For Learning**: Start with `linkedList.py` - it has detailed comments explaining every operation
+2. **For Practice**: Use `myLinkedList.py` to experiment and modify
+3. **For Production**: Use `simple_linked_list.py` - clean and efficient
+4. **For Advanced Features**: Try `doublyLinkedList.py` for bidirectional traversal
+
+### **Running the Examples**
+```bash
+# Run the educational version with full demonstrations
+python linkedList.py
+
+# Run your practice version
+python myLinkedList.py
+
+# Run the clean implementation
+python simple_linked_list.py
+
+# Explore doubly linked lists
+python doublyLinkedList.py
+
+# Check Python memory usage
+python value.py
+```
+
+Each file demonstrates different aspects of linked list implementation and usage patterns.
+
