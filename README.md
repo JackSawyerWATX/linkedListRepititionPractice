@@ -264,9 +264,14 @@ This repository contains various implementations and examples of linked lists in
 
 ### **Specialized Linked List Types**
 - **`doublyLinkedList.py`** - Doubly linked list with forward and backward traversal
+- **`circularDoublyLinkedList.py`** - Circular doubly linked list with bidirectional circular traversal
 - **`basicLinkedList.py`** - Minimal linked list implementation
 - **`currentLinkedList.py`** - Current working version for experiments
 - **`fccLinkedList.py`** - FreeCodeCamp style implementation
+
+### **Algorithm Practice Files**
+- **`lowestValueSLL.py`** - Find the lowest value in a singly linked list
+- **`traversalSLL.py`** - Various traversal methods for singly linked lists
 
 ### **Utility Files**
 - **`value.py`** - Demonstrates Python memory usage and variable properties
@@ -275,15 +280,18 @@ This repository contains various implementations and examples of linked lists in
 ### **Repository Structure**
 ```
 linkedList/
-├── linkedList.py           # Main educational implementation
-├── simple_linked_list.py   # Production-ready version
-├── myLinkedList.py         # Practice version with debugging
-├── doublyLinkedList.py     # Bidirectional linked list
-├── basicLinkedList.py      # Minimal implementation
-├── currentLinkedList.py    # Experimental version
-├── fccLinkedList.py        # Tutorial-style implementation
-├── value.py               # Memory analysis utilities
-└── README.md              # Documentation (this file)
+├── linkedList.py                    # Main educational implementation
+├── simple_linked_list.py            # Production-ready version
+├── myLinkedList.py                  # Practice version with debugging
+├── doublyLinkedList.py              # Bidirectional linked list
+├── circularDoublyLinkedList.py      # Circular doubly linked list
+├── basicLinkedList.py               # Minimal implementation
+├── currentLinkedList.py             # Experimental version
+├── fccLinkedList.py                 # Tutorial-style implementation
+├── lowestValueSLL.py                # Algorithm: Find lowest value
+├── traversalSLL.py                  # Algorithm: Various traversals
+├── value.py                         # Memory analysis utilities
+└── README.md                        # Documentation (this file)
 ```
 
 ### **Getting Started**
@@ -291,6 +299,8 @@ linkedList/
 2. **For Practice**: Use `myLinkedList.py` to experiment and modify
 3. **For Production**: Use `simple_linked_list.py` - clean and efficient
 4. **For Advanced Features**: Try `doublyLinkedList.py` for bidirectional traversal
+5. **For Circular Lists**: Explore `circularDoublyLinkedList.py` for circular traversal patterns
+6. **For Algorithms**: Practice with `lowestValueSLL.py` and `traversalSLL.py` for common operations
 
 ### **Running the Examples**
 ```bash
@@ -305,6 +315,13 @@ python simple_linked_list.py
 
 # Explore doubly linked lists
 python doublyLinkedList.py
+
+# Explore circular doubly linked lists
+python circularDoublyLinkedList.py
+
+# Practice algorithms
+python lowestValueSLL.py         # Find lowest value
+python traversalSLL.py           # Various traversal methods
 
 # Check Python memory usage
 python value.py
